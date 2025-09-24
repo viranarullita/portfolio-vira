@@ -66,7 +66,7 @@ export const projects = [
     desc: "Aplikasi web koleksi mobil premium, dibuat saat pelatihan React Fundamental.",
     repo: "https://github.com/viranarullita/UTS-React-Vira.git",
     live: "https://cars-collection-vira.vercel.app/",
-    image: "/public/cars.png",
+    image: "/cars.png",
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ export const projects = [
     desc: "Aplikasi Dekstop dengan menggunakan C#",
     repo: "https://github.com/viranarullita/SistemManajemenKaryawan.git",
     live: "",
-    image: "/Public/sistemMK.png",
+    image: "/sistemMK.png",
   },
   {
     id: 3,
@@ -82,7 +82,7 @@ export const projects = [
     desc: "Aplikasi web pengelolaan perpustakaan dengan fitur peminjaman dan pengembalian buku.",
     repo: "https://github.com/viranarullita/Perpustakaan.git",
     live: "",
-    image: "/public/perpus.png",
+    image: "/perpus.png",
   },
   {
     id: 4,
@@ -90,15 +90,15 @@ export const projects = [
     desc: "REST API sederhana menggunakan ASP.NET Core",
     repo: "https://github.com/viranarullita/UTS-Project-ViraNarullita.git",
     live: "",
-    image: "/public/api.png",
+    image: "/api.png",
   },
   {
     id: 5,
     title: "Flavorscape - Website Resep Makanan",
     desc: "Website resep makanan interaktif, dibuat dengan HTML, CSS, dan JavaScript.",
     repo: "https://github.com/viranarullita/Flavorscape.git",
-    live: "https://flavorscape-7rdt.vercel.app/",
-    image: "/public/flavorscape.png",
+    live: "https://flavorscape-iota.vercel.app/",
+    image: "/flavorscape.png",
   },
   {
     id: 6,
@@ -106,7 +106,7 @@ export const projects = [
     desc: "Aplikasi konsol untuk manajemen laundry, dibuat menggunakan bahasa C.",
     repo: "https://github.com/viranarullita/Laundry-ProjectC.git",
     live: "",
-    image: "/public/laundry.png",
+    image: "/laundry.png",
   },
   {
     id: 7,
@@ -114,7 +114,7 @@ export const projects = [
     desc: "Cook Recipes adalah platform resep masakan sederhana dengan langkah jelas dan bahan mudah didapat, dari masakan tradisional hingga internasional.",
     repo: "https://github.com/viranarullita/CookRecipes.git",
     live: "https://cook-recipes.vercel.app/",
-    image: "/public/cookrecipes.png",
+    image: "/cookrecipes.png",
   },
 ];
 
@@ -154,5 +154,5 @@ export const profile = {
   title: "Programmer | D3 Manajemen Informatika",
   email: "viranarullita3@gmail.com",
   lokasi: "Bandung, Jawa Barat, Indonesia",
-  foto: "/src/assets/Foto.png",
+  foto: "/Foto.png",
 };
