@@ -2,9 +2,9 @@
 
 Portofolio pribadi yang dibuat dengan **React + Vite** untuk menampilkan profil, pengalaman, dan proyek saya.  
 
-🔗 Live : [portfolio-vira.vercel.app](https://portfolio-vira.vercel.app/)
+Live : [portfolio-vira.vercel.app](https://portfolio-vira.vercel.app/)
 
-## 🛠 Teknologi
+## Teknologi
 - [React](https://react.dev/)  
 - [Vite](https://vitejs.dev/)  
 - [Tailwind CSS](https://tailwindcss.com/)  
