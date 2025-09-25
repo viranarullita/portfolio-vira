@@ -24,7 +24,6 @@ export default function Header() {
 
   return (
     <header className="w-full flex justify-center py-4 fixed top-0 z-50 px-4">
-      {/* Wrapper border gradasi */}
       <div className="relative rounded-full p-[2px] bg-gradient-to-r from-teal-400 via-blue-400 to-purple-500 shadow-2xl w-full max-w-5xl">
         <Motion.nav
           initial={{ opacity: 0, y: -20 }}
@@ -32,19 +31,18 @@ export default function Header() {
           transition={{ duration: 0.5 }}
           className="flex items-center justify-between px-6 py-3 rounded-full bg-[#0b1222]/90 backdrop-blur-md"
         >
-          {/* Logo / Judul */}
           <span className="text-white font-bold text-lg">MyPortfolio</span>
 
-          {/* Tombol Hamburger (mobile) */}
+          {/* Hamburger muncul sampai < lg */}
           <button
-            className="text-white text-2xl md:hidden"
+            className="text-white text-2xl lg:hidden"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
 
           {/* Menu Desktop */}
-          <div className="hidden md:flex gap-6">
+          <div className="hidden lg:flex gap-6">
             <NavLink to="/" className={linkClass}>
               <FaHome /> Home
             </NavLink>
@@ -66,13 +64,13 @@ export default function Header() {
           </div>
         </Motion.nav>
 
-        {/* Menu Mobile Dropdown */}
+        {/* Menu Mobile */}
         {isOpen && (
           <Motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="absolute top-full left-0 w-full mt-2 rounded-2xl bg-[#0b1222]/95 backdrop-blur-md p-4 flex flex-col gap-3 shadow-xl md:hidden"
+            className="absolute top-full left-0 w-full mt-2 rounded-2xl bg-[#0b1222]/95 backdrop-blur-md p-4 flex flex-col gap-3 shadow-xl lg:hidden"
           >
             <NavLink to="/" className={linkClass} onClick={() => setIsOpen(false)}>
               <FaHome /> Home

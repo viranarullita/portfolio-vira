@@ -54,7 +54,7 @@ export const skills = [
       { name: "VS Code", icon: FaCode, color: "text-sky-500" },
       { name: "Postman", icon: SiPostman, color: "text-orange-400" },
       { name: "Laragon", icon: FaLaptopCode, color: "text-green-500" },
-      { name: "XAMPP", icon: FaLaptopCode, color: "text-orange-500" }, // XAMPP
+      { name: "XAMPP", icon: FaLaptopCode, color: "text-orange-500" },
     ],
   },
 ];
@@ -67,6 +67,7 @@ export const projects = [
     repo: "https://github.com/viranarullita/UTS-React-Vira.git",
     live: "https://cars-collection-vira.vercel.app/",
     image: "/cars.png",
+    tools: ["ReactJS", "Tailwind CSS", "Vite"],
   },
   {
     id: 2,
@@ -75,22 +76,25 @@ export const projects = [
     repo: "https://github.com/viranarullita/SistemManajemenKaryawan.git",
     live: "",
     image: "/sistemMK.png",
+    tools: ["C#", "Windows Forms", "MySQL"],
   },
   {
     id: 3,
     title: "Sistem Informasi Perpustakaan",
-    desc: "Aplikasi Library Management System berbasis ASP.NET Core MVC yang digunakan oleh admin untuk mengelola data perpustakaan. Fitur utama mencakup CRUD buku, manajemen peminjaman dan pengembalian, serta autentikasi admin. Backend menggunakan MySQL dengan Entity Framework Core",
+    desc: "Aplikasi Library Management System berbasis ASP.NET Core MVC yang digunakan oleh admin untuk mengelola data perpustakaan. Fitur utama mencakup CRUD buku, manajemen peminjaman dan pengembalian, serta autentikasi admin. Backend menggunakan MySQL dengan Entity Framework Core.",
     repo: "https://github.com/viranarullita/Perpustakaan.git",
     live: "",
     image: "/perpus.png",
+    tools: ["C#", "ASP.NET Core", "MySQL", "Entity Framework Core"],
   },
   {
     id: 4,
     title: "REST API",
-    desc: "REST API sederhana menggunakan ASP.NET Core",
+    desc: "REST API sederhana menggunakan ASP.NET Core.",
     repo: "https://github.com/viranarullita/UTS-Project-ViraNarullita.git",
     live: "",
     image: "/api.png",
+    tools: ["C#", "ASP.NET Core", "Postman"],
   },
   {
     id: 5,
@@ -99,14 +103,16 @@ export const projects = [
     repo: "https://github.com/viranarullita/Flavorscape.git",
     live: "https://flavorscape-iota.vercel.app/",
     image: "/flavorscape.png",
+    tools: ["HTML5", "CSS3", "JavaScript", "Vercel"],
   },
   {
     id: 6,
     title: "Vilaundry - Aplikasi Laundry Console",
-    desc: "Vilaundry adalah aplikasi console berbasis C yang digunakan oleh admin layanan laundry untuk mengelola operasional harian",
+    desc: "Vilaundry adalah aplikasi console berbasis C yang digunakan oleh admin layanan laundry untuk mengelola operasional harian.",
     repo: "https://github.com/viranarullita/Laundry-ProjectC.git",
     live: "",
     image: "/laundry.png",
+    tools: ["C", "Console App"],
   },
   {
     id: 7,
@@ -115,6 +121,7 @@ export const projects = [
     repo: "https://github.com/viranarullita/CookRecipes.git",
     live: "https://cook-recipes.vercel.app/",
     image: "/cookrecipes.png",
+    tools: ["ReactJS", "Tailwind CSS", "localStorage", "Vercel"],
   },
 ];
 
@@ -133,19 +140,24 @@ export const education = [
 
 export const experiences = [
   {
-    role: "Frontend Developer",
-    company: "PT Tech Indonesia",
-    desc: "Mengembangkan antarmuka web dengan React dan Tailwind, serta bekerja sama dengan tim UI/UX.",
+    role: "Instruktur Logika Algoritma & Bahasa C",
+    company: "Universitas Nasional Pasim",
+    desc: "Membimbing mahasiswa dalam memahami dasar-dasar pemrograman, logika algoritma, dan bahasa C.",
   },
   {
-    role: "Backend Developer",
-    company: "Startup XYZ",
-    desc: "Membangun REST API dengan Node.js dan Express, serta mengelola database MySQL.",
+    role: "Instruktur Struktur Data",
+    company: "Universitas Nasional Pasim",
+    desc: "Mengajar materi struktur data serta membimbing mahasiswa dalam implementasi menggunakan bahasa pemrograman.",
   },
   {
-    role: "Intern Web Developer",
-    company: "Software House ABC",
-    desc: "Mengerjakan proyek internal dan melakukan maintenance website client.",
+    role: "Front Office",
+    company: "Universitas Nasional Pasim",
+    desc: "Memberikan layanan informasi kepada mahasiswa, calon mahasiswa, dan tamu kampus dengan sikap ramah dan profesional. Menangani pertanyaan terkait jadwal kelas, biaya kuliah, dan administrasi akademik. Menerima serta mengarahkan tamu ke bagian/unit yang sesuai. Mengelola komunikasi melalui telepon dan whatsapp. Membantu pencatatan dan pengarsipan dokumen administrasi.",
+  },
+  {
+    role: "PKL - Layanan Administrasi Masyarakat",
+    company: "Kantor Kecamatan Bangodua, Indramayu",
+    desc: "Memberikan pelayanan administrasi masyarakat, termasuk pembuatan KTP, KK, surat keterangan, dan dokumen lainnya. Menyambut dan mengarahkan tamu, melakukan pencatatan data, mengelola arsip, mencetak dokumen, serta membantu kebutuhan fotokopi.",
   },
 ];
 
