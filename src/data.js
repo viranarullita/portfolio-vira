@@ -63,7 +63,7 @@ export const projects = [
   {
     id: 1,
     title: "Premium Car Collection Web App",
-    desc: "Aplikasi web koleksi mobil premium, dibuat saat pelatihan React Fundamental.",
+    desc: "Sebuah aplikasi web untuk menampilkan koleksi mobil premium. Dibangun menggunakan React untuk komponen interaktif, Tailwind CSS untuk styling responsif, serta Vite sebagai bundler agar performa lebih cepat. Proyek ini juga di-deploy di Vercel untuk akses online.",
     repo: "https://github.com/viranarullita/UTS-React-Vira.git",
     live: "https://cars-collection-vira.vercel.app/",
     image: "/cars.png",
@@ -71,7 +71,7 @@ export const projects = [
   {
     id: 2,
     title: "Sistem Manajemen Karyawan",
-    desc: "Aplikasi Dekstop dengan menggunakan C#",
+    desc: "Aplikasi desktop berbasis C# Windows Forms yang dirancang untuk membantu admin perusahaan dalam mengelola data karyawan, departemen, dan gaji. Dengan sistem ini, admin dapat menambah, mengedit, dan menghapus data dengan mudah. Aplikasi ini bertujuan untuk meningkatkan efisiensi pengelolaan data karyawan.",
     repo: "https://github.com/viranarullita/SistemManajemenKaryawan.git",
     live: "",
     image: "/sistemMK.png",
@@ -79,7 +79,7 @@ export const projects = [
   {
     id: 3,
     title: "Sistem Informasi Perpustakaan",
-    desc: "Aplikasi web pengelolaan perpustakaan dengan fitur peminjaman dan pengembalian buku.",
+    desc: "Aplikasi Library Management System berbasis ASP.NET Core MVC yang digunakan oleh admin untuk mengelola data perpustakaan. Fitur utama mencakup CRUD buku, manajemen peminjaman dan pengembalian, serta autentikasi admin. Backend menggunakan MySQL dengan Entity Framework Core",
     repo: "https://github.com/viranarullita/Perpustakaan.git",
     live: "",
     image: "/perpus.png",
@@ -95,7 +95,7 @@ export const projects = [
   {
     id: 5,
     title: "Flavorscape - Website Resep Makanan",
-    desc: "Website resep makanan interaktif, dibuat dengan HTML, CSS, dan JavaScript.",
+    desc: "Sebuah website resep makanan interaktif yang dibangun menggunakan HTML, CSS, dan JavaScript. Website ini menampilkan berbagai resep dengan tampilan menarik serta navigasi yang mudah dipahami pengguna. Proyek ini di-deploy menggunakan Vercel sehingga dapat diakses secara online.",
     repo: "https://github.com/viranarullita/Flavorscape.git",
     live: "https://flavorscape-iota.vercel.app/",
     image: "/flavorscape.png",
@@ -103,7 +103,7 @@ export const projects = [
   {
     id: 6,
     title: "Vilaundry - Aplikasi Laundry Console",
-    desc: "Aplikasi konsol untuk manajemen laundry, dibuat menggunakan bahasa C.",
+    desc: "Vilaundry adalah aplikasi console berbasis C yang digunakan oleh admin layanan laundry untuk mengelola operasional harian",
     repo: "https://github.com/viranarullita/Laundry-ProjectC.git",
     live: "",
     image: "/laundry.png",
@@ -111,7 +111,7 @@ export const projects = [
   {
     id: 7,
     title: "CookRecipe - Platform Recipe Masakan",
-    desc: "Cook Recipes adalah platform resep masakan sederhana dengan langkah jelas dan bahan mudah didapat, dari masakan tradisional hingga internasional.",
+    desc: "Sebuah Aplikasi web berbasis ReactJS & TailwindCSS dengan fitur menelusuri, menambahkan, dan berbagi resep. Mendukung localStorage untuk menyimpan resep favorit tanpa backend. Proyek ini di-deploy menggunakan Vercel sehingga dapat diakses secara online.",
     repo: "https://github.com/viranarullita/CookRecipes.git",
     live: "https://cook-recipes.vercel.app/",
     image: "/cookrecipes.png",
@@ -125,8 +125,8 @@ export const education = [
     year: "2023 - Sekarang",
   },
   {
-    title: "SMK PGRI Jatibarang",
-    place: "Jurusan Akuntansi Keuangan dan Lembaga",
+    title: "Jurusan Akuntansi Keuangan dan Lembaga",
+    place: "SMK PGRI Jatibarang",
     year: "2020 - 2023",
   },
 ];
