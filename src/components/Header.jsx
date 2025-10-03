@@ -57,8 +57,8 @@ export default function Header() {
             <NavLink to="/education" className={linkClass}>
               <FaGraduationCap /> Education
             </NavLink>
-            <NavLink to="/pelatihan" className={linkClass}>
-              <FaCertificate /> Pelatihan
+            <NavLink to="/training" className={linkClass}>
+              <FaCertificate /> Training
             </NavLink>
             <NavLink to="/projects" className={linkClass}>
               <FaFolderOpen /> Projects
