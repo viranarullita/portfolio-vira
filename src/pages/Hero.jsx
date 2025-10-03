@@ -8,13 +8,11 @@ export default function Hero() {
 
   return (
     <>
-      {/* HERO SECTION */}
       <section
         id="home"
         className="px-6 sm:px-8 py-10 sm:py-12 lg:py-16 max-w-7xl mx-auto 
                    grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center"
       >
-        {/* FOTO */}
         <Motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -22,14 +20,12 @@ export default function Hero() {
           className="relative flex justify-center order-1 lg:order-2"
         >
           <div className="relative rounded-2xl p-[4px] overflow-hidden">
-            {/* Border animasi */}
             <div
               className="absolute inset-0 rounded-2xl bg-[conic-gradient(at_top_left,_#14b8a6,_#3b82f6,_#8b5cf6,_#14b8a6)] 
                  animate-spin blur-sm opacity-80"
               style={{ animationDuration: "8s" }}
             ></div>
 
-            {/* Container foto biar border ga nutupin */}
             <div className="relative rounded-2xl bg-white/5 shadow-xl shadow-teal-500/30 overflow-hidden">
               <img
                 src={profile.foto}
@@ -40,7 +36,6 @@ export default function Hero() {
           </div>
         </Motion.div>
 
-        {/* TEKS */}
         <div className="text-center lg:text-left order-2 lg:order-1 lg:pl-8 xl:pl-12">
           <Motion.h1
             initial={{ x: -30, opacity: 0 }}
@@ -88,7 +83,6 @@ export default function Hero() {
             agar siap berkontribusi di dunia profesional.
           </Motion.p>
 
-          {/* BUTTONS */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
               className="group px-6 py-3 rounded-full bg-gradient-to-r from-teal-500 to-blue-500 
@@ -112,13 +106,11 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* ABOUT SECTION */}
       <section
         id="about"
         className="relative px-6 sm:px-8 py-16 sm:py-20 lg:py-24 max-w-6xl mx-auto 
                    grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center"
       >
-        {/* BACKGROUND ORNAMENT */}
         <div className="absolute inset-0 -z-10">
           <div
             className="absolute top-10 left-1/4 w-52 sm:w-64 md:w-72 lg:w-80 
@@ -137,7 +129,6 @@ export default function Hero() {
           />
         </div>
 
-        {/* FOTO ABOUT */}
         <Motion.div
           initial={{ x: -30, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -153,7 +144,6 @@ export default function Hero() {
           />
         </Motion.div>
 
-        {/* TEKS ABOUT */}
         <Motion.div
           initial={{ x: 30, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
