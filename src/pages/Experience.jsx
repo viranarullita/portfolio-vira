@@ -7,12 +7,10 @@ export default function Experience() {
   const [showButton, setShowButton] = useState(false);
   const [isNearFooter, setIsNearFooter] = useState(false);
 
-  // Pantau scroll untuk tombol
   useEffect(() => {
     const handleScroll = () => {
       setShowButton(window.scrollY > 200);
 
-      // Cek apakah sudah dekat footer
       const footer = document.querySelector("footer");
       if (footer) {
         const rect = footer.getBoundingClientRect();
@@ -55,6 +53,15 @@ export default function Experience() {
                        transition-transform duration-300
                        hover:scale-100 sm:hover:scale-[1.02] sm:hover:shadow-2xl"
           >
+            {exp.image && (
+              <div className="w-full h-56 sm:h-64 mb-3 overflow-hidden rounded-lg bg-white/10">
+                <img
+                  src={exp.image}
+                  alt={exp.role}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            )}
             <h3 className="text-base sm:text-lg font-semibold text-primary">
               {exp.role}
             </h3>
@@ -66,7 +73,6 @@ export default function Experience() {
         ))}
       </div>
 
-      {/* Tombol Scroll ke Atas */}
       {showButton && (
         <button
           onClick={scrollToTop}

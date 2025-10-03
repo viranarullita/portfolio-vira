@@ -12,13 +12,10 @@ export default function Projects() {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const currentProjects = projects.slice(startIndex, startIndex + itemsPerPage);
 
-  // 🔥 Scroll otomatis setiap kali currentPage berubah (dengan offset)
   useEffect(() => {
     if (sectionRef.current) {
       const y =
-        sectionRef.current.getBoundingClientRect().top +
-        window.scrollY -
-        100; // offset 100px (bisa diubah sesuai tinggi navbar)
+        sectionRef.current.getBoundingClientRect().top + window.scrollY - 100; // offset 100px (bisa diubah sesuai tinggi navbar)
       window.scrollTo({ top: y, behavior: "smooth" });
     }
   }, [currentPage]);
@@ -41,12 +38,10 @@ export default function Projects() {
       id="projects"
       className="max-w-6xl mx-auto px-8 py-16"
     >
-      {/* Judul */}
       <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
         Projects
       </h2>
 
-      {/* Grid Card */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
         {currentProjects.map((p) => (
           <Motion.div
@@ -74,7 +69,6 @@ export default function Projects() {
 
               <p className="text-gray-300 text-sm sm:text-base">{p.desc}</p>
 
-              {/* Tools */}
               {p.tools && (
                 <div className="flex flex-wrap gap-2 mt-2">
                   {p.tools.map((tool, idx) => {
@@ -135,13 +129,16 @@ export default function Projects() {
         ))}
       </div>
 
-      {/* Pagination */}
       <div className="flex items-center justify-center gap-4 mt-8">
         <button
           onClick={prevPage}
           disabled={currentPage === 1}
-          className="px-3 py-1 rounded-lg bg-white/10 text-white 
-                     disabled:opacity-40 hover:bg-white/20 transition"
+          className={`px-3 py-1 rounded-lg text-white transition
+      ${
+        currentPage === 1
+          ? "bg-gray-500/40 cursor-not-allowed opacity-60"
+          : "bg-white/10 hover:bg-white/20 cursor-pointer"
+      }`}
         >
           Prev
         </button>
@@ -153,8 +150,12 @@ export default function Projects() {
         <button
           onClick={nextPage}
           disabled={currentPage === totalPages}
-          className="px-3 py-1 rounded-lg bg-white/10 text-white 
-                     disabled:opacity-40 hover:bg-white/20 transition"
+          className={`px-3 py-1 rounded-lg text-white transition
+      ${
+        currentPage === totalPages
+          ? "bg-gray-500/40 cursor-not-allowed opacity-60"
+          : "bg-white/10 hover:bg-white/20 cursor-pointer"
+      }`}
         >
           Next
         </button>

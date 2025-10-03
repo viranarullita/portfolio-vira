@@ -35,7 +35,6 @@ export default function Contact() {
       id="contact"
       className="max-w-6xl mx-auto px-4 sm:px-8 py-8 sm:py-16 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10"
     >
-      {/* Form */}
       <div>
         <Motion.h2
           initial={{ x: -10, opacity: 0 }}
@@ -83,7 +82,6 @@ export default function Contact() {
             </button>
           </form>
 
-          {/* Status message */}
           {status === "success" && (
             <div className="flex items-center gap-2 text-green-400 mt-3 sm:mt-4 text-sm sm:text-base">
               <CheckCircle className="w-5 h-5" />
@@ -99,7 +97,6 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* Info Card */}
       <Motion.div
         initial={{ x: 10, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -111,7 +108,6 @@ export default function Contact() {
           Contact Info
         </h3>
 
-        {/* Email */}
         <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
           <div className="p-3 rounded-xl bg-gradient-to-br from-purple-600/30 to-purple-800/30">
             <Mail className="w-5 h-5 text-purple-400" />
@@ -124,7 +120,6 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Location */}
         <div className="flex items-center gap-3 sm:gap-4">
           <div className="p-3 rounded-xl bg-gradient-to-br from-pink-600/30 to-pink-800/30">
             <MapPin className="w-5 h-5 text-pink-400" />

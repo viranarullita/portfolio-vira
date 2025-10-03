@@ -142,11 +142,13 @@ export const experiences = [
   {
     role: "Instruktur Logika Algoritma & Bahasa C",
     company: "Universitas Nasional Pasim",
+    image: "/sertifikat/InstructorC.jpeg",
     desc: "Membimbing mahasiswa dalam memahami dasar-dasar pemrograman, logika algoritma, dan bahasa C.",
   },
   {
     role: "Instruktur Struktur Data",
     company: "Universitas Nasional Pasim",
+    image: "/sertifikat/InstructorDataStructure.jpeg",
     desc: "Mengajar materi struktur data serta membimbing mahasiswa dalam implementasi menggunakan bahasa pemrograman.",
   },
   {
@@ -210,4 +212,5 @@ export const profile = {
   email: "viranarullita3@gmail.com",
   lokasi: "Bandung, Jawa Barat, Indonesia",
   foto: "/Foto.png",
+  image: "/me.jpeg"
 };

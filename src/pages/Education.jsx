@@ -4,7 +4,6 @@ import { education } from "../data";
 export default function Education() {
   return (
     <section id="education" className="max-w-6xl mx-auto px-8 py-16">
-      {/* Judul */}
       <Motion.h2
         initial={{ y: 20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -15,7 +14,6 @@ export default function Education() {
         Education
       </Motion.h2>
 
-      {/* Isi */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {education.map((item, index) => (
           <Motion.div
