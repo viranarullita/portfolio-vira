@@ -7,6 +7,7 @@ import {
   FaFolderOpen,
   FaBars,
   FaTimes,
+  FaCertificate, // ✅ Tambahin ini
 } from "react-icons/fa";
 import { motion as Motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
@@ -16,7 +17,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const linkClass = ({ isActive }) =>
-    `flex items-center gap-2 px-4 py-2 rounded-full transition-colors ${
+    `flex items-center gap-2 px-3 py-2 rounded-full transition-colors text-sm xl:text-base ${
       isActive
         ? "bg-white/20 text-white font-semibold shadow-md"
         : "text-gray-200 hover:text-white hover:bg-white/10"
@@ -24,7 +25,8 @@ export default function Header() {
 
   return (
     <header className="w-full flex justify-center py-4 fixed top-0 z-50 px-4">
-      <div className="relative rounded-full p-[2px] bg-gradient-to-r from-teal-400 via-blue-400 to-purple-500 shadow-2xl w-full max-w-5xl">
+      {/* ✅ Biar lebih lega */}
+      <div className="relative rounded-full p-[2px] bg-gradient-to-r from-teal-400 via-blue-400 to-purple-500 shadow-2xl w-full max-w-6xl">
         <Motion.nav
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -33,7 +35,7 @@ export default function Header() {
         >
           <span className="text-white font-bold text-lg">MyPortfolio</span>
 
-          {/* Hamburger muncul sampai < lg */}
+          {/* Hamburger untuk mobile */}
           <button
             className="text-white text-2xl lg:hidden"
             onClick={() => setIsOpen(!isOpen)}
@@ -42,7 +44,7 @@ export default function Header() {
           </button>
 
           {/* Menu Desktop */}
-          <div className="hidden lg:flex gap-6">
+          <div className="hidden lg:flex gap-5">
             <NavLink to="/" className={linkClass}>
               <FaHome /> Home
             </NavLink>
@@ -54,6 +56,9 @@ export default function Header() {
             </NavLink>
             <NavLink to="/education" className={linkClass}>
               <FaGraduationCap /> Education
+            </NavLink>
+            <NavLink to="/pelatihan" className={linkClass}>
+              <FaCertificate /> Pelatihan
             </NavLink>
             <NavLink to="/projects" className={linkClass}>
               <FaFolderOpen /> Projects
@@ -83,6 +88,9 @@ export default function Header() {
             </NavLink>
             <NavLink to="/education" className={linkClass} onClick={() => setIsOpen(false)}>
               <FaGraduationCap /> Education
+            </NavLink>
+            <NavLink to="/training" className={linkClass}>
+              <FaCertificate /> Training
             </NavLink>
             <NavLink to="/projects" className={linkClass} onClick={() => setIsOpen(false)}>
               <FaFolderOpen /> Projects

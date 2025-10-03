@@ -66,7 +66,7 @@ export const projects = [
     desc: "Sebuah aplikasi web untuk menampilkan koleksi mobil premium. Dibangun menggunakan React untuk komponen interaktif, Tailwind CSS untuk styling responsif, serta Vite sebagai bundler agar performa lebih cepat. Proyek ini juga di-deploy di Vercel untuk akses online.",
     repo: "https://github.com/viranarullita/UTS-React-Vira.git",
     live: "https://cars-collection-vira.vercel.app/",
-    image: "/cars.png",
+    image: "/projects/cars.png",
     tools: ["ReactJS", "Tailwind CSS", "Vite"],
   },
   {
@@ -75,7 +75,7 @@ export const projects = [
     desc: "Aplikasi desktop berbasis C# Windows Forms yang dirancang untuk membantu admin perusahaan dalam mengelola data karyawan, departemen, dan gaji. Dengan sistem ini, admin dapat menambah, mengedit, dan menghapus data dengan mudah. Aplikasi ini bertujuan untuk meningkatkan efisiensi pengelolaan data karyawan.",
     repo: "https://github.com/viranarullita/SistemManajemenKaryawan.git",
     live: "",
-    image: "/sistemMK.png",
+    image: "/projects/sistemMK.png",
     tools: ["C#", "Windows Forms", "MySQL"],
   },
   {
@@ -84,7 +84,7 @@ export const projects = [
     desc: "Aplikasi Library Management System berbasis ASP.NET Core MVC yang digunakan oleh admin untuk mengelola data perpustakaan. Fitur utama mencakup CRUD buku, manajemen peminjaman dan pengembalian, serta autentikasi admin. Backend menggunakan MySQL dengan Entity Framework Core.",
     repo: "https://github.com/viranarullita/Perpustakaan.git",
     live: "",
-    image: "/perpus.png",
+    image: "/projects/perpus.png",
     tools: ["C#", "ASP.NET Core", "MySQL", "Entity Framework Core"],
   },
   {
@@ -93,7 +93,7 @@ export const projects = [
     desc: "REST API sederhana menggunakan ASP.NET Core.",
     repo: "https://github.com/viranarullita/UTS-Project-ViraNarullita.git",
     live: "",
-    image: "/api.png",
+    image: "/projects/api.png",
     tools: ["C#", "ASP.NET Core", "Postman"],
   },
   {
@@ -102,7 +102,7 @@ export const projects = [
     desc: "Sebuah website resep makanan interaktif yang dibangun menggunakan HTML, CSS, dan JavaScript. Website ini menampilkan berbagai resep dengan tampilan menarik serta navigasi yang mudah dipahami pengguna. Proyek ini di-deploy menggunakan Vercel sehingga dapat diakses secara online.",
     repo: "https://github.com/viranarullita/Flavorscape.git",
     live: "https://flavorscape-iota.vercel.app/",
-    image: "/flavorscape.png",
+    image: "/projects/flavorscape.png",
     tools: ["HTML5", "CSS3", "JavaScript", "Vercel"],
   },
   {
@@ -111,7 +111,7 @@ export const projects = [
     desc: "Vilaundry adalah aplikasi console berbasis C yang digunakan oleh admin layanan laundry untuk mengelola operasional harian.",
     repo: "https://github.com/viranarullita/Laundry-ProjectC.git",
     live: "",
-    image: "/laundry.png",
+    image: "/projects/laundry.png",
     tools: ["C", "Console App"],
   },
   {
@@ -120,7 +120,7 @@ export const projects = [
     desc: "Sebuah Aplikasi web berbasis ReactJS & TailwindCSS dengan fitur menelusuri, menambahkan, dan berbagi resep. Mendukung localStorage untuk menyimpan resep favorit tanpa backend. Proyek ini di-deploy menggunakan Vercel sehingga dapat diakses secara online.",
     repo: "https://github.com/viranarullita/CookRecipes.git",
     live: "https://cook-recipes.vercel.app/",
-    image: "/cookrecipes.png",
+    image: "/projects/cookrecipes.png",
     tools: ["ReactJS", "Tailwind CSS", "localStorage", "Vercel"],
   },
 ];
@@ -158,6 +158,24 @@ export const experiences = [
     role: "PKL - Layanan Administrasi Masyarakat",
     company: "Kantor Kecamatan Bangodua, Indramayu",
     desc: "Memberikan pelayanan administrasi masyarakat, termasuk pembuatan KTP, KK, surat keterangan, dan dokumen lainnya. Menyambut dan mengarahkan tamu, melakukan pencatatan data, mengelola arsip, mencetak dokumen, serta membantu kebutuhan fotokopi.",
+  },
+];
+
+export const training = [
+  {
+    id: 1,
+    title: "Fundamental Back-End Programming Training (C#)",
+    image: "/sertifikat/fundamentalCSharp.jpeg",
+  },
+  {
+    id: 2,
+    title: "GitHub Training",
+    image: "/sertifikat/git.jpeg",
+  },
+  {
+    id: 3,
+    title: "Logic and Algorithm Training (C)",
+    image: "/sertifikat/trainingC.jpeg",
   },
 ];
 
