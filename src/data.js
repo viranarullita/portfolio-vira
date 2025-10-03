@@ -169,13 +169,38 @@ export const training = [
   },
   {
     id: 2,
-    title: "GitHub Training",
-    image: "/sertifikat/git.jpeg",
+    title: "Advanced Back-End Programming Training (C#)",
+    image: "/sertifikat/AdvancedCSharp.jpeg",
   },
   {
     id: 3,
     title: "Logic and Algorithm Training (C)",
     image: "/sertifikat/trainingC.jpeg",
+  },
+  {
+    id: 4,
+    title: "Database MySQL Training",
+    image: "/sertifikat/database.jpeg",
+  },
+  {
+    id: 5,
+    title: "Data Structure Training (C)",
+    image: "/sertifikat/datastruktur.jpeg",
+  },
+  {
+    id: 6,
+    title: "Web Programming Training (HTML, CSS, Javascript)",
+    image: "/sertifikat/web.jpeg",
+  },
+  {
+    id: 7,
+    title: "GitHub Training",
+    image: "/sertifikat/git.jpeg",
+  },
+  {
+    id: 8,
+    title: "Data Structure Training (C)",
+    image: "/sertifikat/datastruktur.jpeg",
   },
 ];
 

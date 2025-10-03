@@ -11,7 +11,7 @@ export default function Footer() {
 
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
           <a
-            href="https://github.com/"
+            href="https://github.com/viranarullita"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-gray-200 transition-colors"
@@ -19,7 +19,7 @@ export default function Footer() {
             <Github className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8" />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="www.linkedin.com/in/vira-narullita-b934b1287"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-blue-500 transition-colors"
