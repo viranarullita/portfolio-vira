@@ -201,8 +201,8 @@ export const training = [
   },
   {
     id: 8,
-    title: "Data Structure Training (C)",
-    image: "/sertifikat/datastruktur.jpeg",
+    title: "React Training",
+    image: "/sertifikat/react.jpeg",
   },
 ];
 
