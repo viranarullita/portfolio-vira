@@ -132,7 +132,7 @@ export const education = [
     year: "2023 - Sekarang",
   },
   {
-    title: "Jurusan Akuntansi Keuangan dan Lembaga",
+    title: "Jurusan Akuntansi dan Keuangan Lembaga",
     place: "SMK PGRI Jatibarang",
     year: "2020 - 2023",
   },
@@ -159,6 +159,7 @@ export const experiences = [
   {
     role: "PKL - Layanan Administrasi Masyarakat",
     company: "Kantor Kecamatan Bangodua, Indramayu",
+    image: "/PKL.jpeg",
     desc: "Memberikan pelayanan administrasi masyarakat, termasuk pembuatan KTP, KK, surat keterangan, dan dokumen lainnya. Menyambut dan mengarahkan tamu, melakukan pencatatan data, mengelola arsip, mencetak dokumen, serta membantu kebutuhan fotokopi.",
   },
 ];
@@ -212,5 +213,5 @@ export const profile = {
   email: "viranarullita3@gmail.com",
   lokasi: "Bandung, Jawa Barat, Indonesia",
   foto: "/Foto.png",
-  image: "/me.jpeg"
+  image: "/me.jpeg",
 };
