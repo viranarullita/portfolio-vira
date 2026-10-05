@@ -62,13 +62,25 @@ export default function Experience() {
                 />
               </div>
             )}
+
             <h3 className="text-base sm:text-lg font-semibold text-primary">
               {exp.role}
             </h3>
+
             <span className="text-xs sm:text-sm text-gray-400 italic">
               {exp.company}
             </span>
-            <p className="text-gray-300 text-sm leading-relaxed">{exp.desc}</p>
+
+            {/* Update 25 September 2026 By Afi */}
+            {exp.period && (
+              <span className="text-xs sm:text-sm text-gray-500">
+                {exp.period}
+              </span>
+            )}
+
+            <p className="text-gray-300 text-sm leading-relaxed">
+              {exp.desc}
+            </p>
           </Motion.div>
         ))}
       </div>
@@ -77,7 +89,7 @@ export default function Experience() {
         <button
           onClick={scrollToTop}
           className={`fixed right-4 sm:right-6 p-3 rounded-full bg-primary text-white shadow-lg hover:bg-primary/80 transition-all
-      ${isNearFooter ? "bottom-32 sm:bottom-36" : "bottom-4 sm:bottom-8"}`}
+          ${isNearFooter ? "bottom-32 sm:bottom-36" : "bottom-4 sm:bottom-8"}`}
         >
           <FaArrowUp size={20} />
         </button>

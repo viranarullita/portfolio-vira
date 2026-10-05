@@ -53,7 +53,6 @@ export const skills = [
       { name: "Visual Studio", icon: FaLaptopCode, color: "text-blue-600" },
       { name: "VS Code", icon: FaCode, color: "text-sky-500" },
       { name: "Postman", icon: SiPostman, color: "text-orange-400" },
-      { name: "Laragon", icon: FaLaptopCode, color: "text-green-500" },
       { name: "XAMPP", icon: FaLaptopCode, color: "text-orange-500" },
     ],
   },
@@ -123,13 +122,22 @@ export const projects = [
     image: "/projects/cookrecipes.png",
     tools: ["ReactJS", "Tailwind CSS", "localStorage", "Vercel"],
   },
+  {
+    id: 8,
+    title: "Aplikasi Pendaftaran Santri Baru - MDTA Baiturrohman",
+    desc: "Aplikasi berbasis web yang dikembangkan sebagai Tugas Akhir untuk membantu proses pendaftaran santri baru di MDTA Baiturrohman. Sistem dikembangkan menggunakan ReactJS dan Tailwind CSS pada sisi frontend, sedangkan backend menggunakan Node.js dan Express.js dengan MySQL sebagai database. Sistem memungkinkan pendaftar mengisi formulir, mengunggah dokumen persyaratan, memantau status pendaftaran, serta mengunggah bukti pembayaran. Sekretaris dapat memverifikasi data pendaftaran, Bendahara memverifikasi pembayaran, dan Kepala Madrasah dapat melihat laporan pendaftaran.",
+    repo: "",
+    live: "",
+    image: "/projects/mdta.png",
+    tools: ["ReactJS", "Tailwind CSS", "Node.js", "Express.js", "MySQL"],
+  },
 ];
 
 export const education = [
   {
     title: "D3 Manajemen Informatika",
     place: "Universitas Nasional Pasim",
-    year: "2023 - Sekarang",
+    year: "2023 - 2026",
   },
   {
     title: "Jurusan Akuntansi dan Keuangan Lembaga",
@@ -140,22 +148,32 @@ export const education = [
 
 export const experiences = [
   {
+    role: "Software Development Intern",
+    company: "PT Cybermax Indonesia",
+    period: "Januari 2026 - Juli 2026",
+    desc: "Menjalani magang sebagai Software Development Intern dengan tanggung jawab meliputi pengujian aplikasi dan REST API, penyusunan dokumentasi penggunaan sistem, pemantauan progres pekerjaan developer melalui ClickUp, serta komunikasi dan koordinasi perkembangan task dalam tim. Selain itu, mendapatkan exposure terhadap pengembangan sistem internal perusahaan berbasis React pada sisi frontend.",
+  },
+
+  {
     role: "Instruktur Logika Algoritma & Bahasa C",
     company: "Universitas Nasional Pasim",
     image: "/sertifikat/InstructorC.jpeg",
     desc: "Membimbing mahasiswa dalam memahami dasar-dasar pemrograman, logika algoritma, dan bahasa C.",
   },
+
   {
     role: "Instruktur Struktur Data",
     company: "Universitas Nasional Pasim",
     image: "/sertifikat/InstructorDataStructure.jpeg",
     desc: "Mengajar materi struktur data serta membimbing mahasiswa dalam implementasi menggunakan bahasa pemrograman.",
   },
+
   {
     role: "Front Office",
     company: "Universitas Nasional Pasim",
-    desc: "Memberikan layanan informasi kepada mahasiswa, calon mahasiswa, dan tamu kampus dengan sikap ramah dan profesional. Menangani pertanyaan terkait jadwal kelas, biaya kuliah, dan administrasi akademik. Menerima serta mengarahkan tamu ke bagian/unit yang sesuai. Mengelola komunikasi melalui telepon dan whatsapp. Membantu pencatatan dan pengarsipan dokumen administrasi.",
+    desc: "Memberikan layanan informasi kepada mahasiswa, calon mahasiswa, dan tamu kampus dengan sikap ramah dan profesional. Menangani pertanyaan terkait jadwal kelas, biaya kuliah, dan administrasi akademik. Menerima serta mengarahkan tamu ke bagian/unit yang sesuai. Mengelola komunikasi melalui telepon dan WhatsApp. Membantu pencatatan dan pengarsipan dokumen administrasi.",
   },
+
   {
     role: "PKL - Layanan Administrasi Masyarakat",
     company: "Kantor Kecamatan Bangodua, Indramayu",
@@ -209,7 +227,7 @@ export const training = [
 
 export const profile = {
   nama: "Vira Narullita",
-  title: "Programmer | D3 Manajemen Informatika",
+  title: "Junior Software Developer | D3 Manajemen Informatika",
   email: "viranarullita3@gmail.com",
   lokasi: "Bandung, Jawa Barat, Indonesia",
   foto: "/Foto.png",
